@@ -2,7 +2,9 @@ import React from "react";
 
 export default function Form() {
     return (
-        <form name="contact" data-netlify="true" method="POST">
+        <form name="contact" method="post">
+            {/* Needs a input with type hidden and name="form-name" */}
+            <input type="hidden" name="form-name" value="contact" />
             <p>
                 <label htmlFor="name">Name</label><br />
                 <input type="text" id="name" name="name" required />
