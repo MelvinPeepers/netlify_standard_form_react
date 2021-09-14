@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Form() {
     return (
-        <form name="contact" method="post">
+        <form name="contact" method="post" data-netlify-recaptcha="true">
             {/* Needs a input with type hidden and name="form-name" */}
             <input type="hidden" name="form-name" value="contact" />
             <p>
@@ -19,7 +19,7 @@ export default function Form() {
                 <label htmlFor="message">Message</label><br />
                 <textarea id="message" name="message" required></textarea>
             </p>
-            
+            <div data-netlify-recaptcha="true"></div>
             <p>
                 <input type="submit" value="Submit message"/>
             </p>
