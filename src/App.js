@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Contact</h1>
+      <h1>React Contact Form</h1>
       <Form />
       <p>The HTML version of the Form can be found <a href="https://github.com/MelvinPeepers/netlify_standard_form_react/blob/main/public/index.html">here</a></p>
       <p>The JSX version of the Form can be found <a href="https://github.com/MelvinPeepers/netlify_standard_form_react/blob/main/src/component/Form.js">here</a></p>
